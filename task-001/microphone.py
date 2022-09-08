@@ -23,7 +23,7 @@ meta = site.info()
 response = requests.get(url, stream=True)
 total_size_in_bytes = int(meta["Content-Length"])
 progress_bar = tqdm(total = total_size_in_bytes, unit='iB', unit_scale=True)
-with open('vosk-model-small-fa-0.5.zip', 'wb') as file:
+with open(filename, 'wb') as file:
     for data in response.iter_content(block_size):
         progress_bar.update(len(data))
         file.write(data)
@@ -78,7 +78,7 @@ try:
         # soundfile expects an int, sounddevice provides a float:
         args.samplerate = int(device_info['default_samplerate'])
 
-    model = vosk.Model("vosk-model-small-fa-0.5")
+    model = vosk.Model(filename.split('.zip')[0])
 
     if args.filename:
         dump_fn = open(args.filename, "wb")
