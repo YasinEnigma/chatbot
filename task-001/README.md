@@ -8,11 +8,11 @@
 $ git clone https://github.com/YasinEnigma/mci-chatbot
 $ cd mci-chatbot
 
-## install requirements for run project:
+# install requirements for run project:
 $ pip3 install vosk
 $ pip3 install sounddevice 
 
-## Run project
+# Run project
 $ python3 microphone.py
 
 ```
