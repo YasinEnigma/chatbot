@@ -7,6 +7,7 @@ Develop an echo telegram bot.
 3. Save your token in token file.
 4. Install [telebot](https://github.com/eternnoir/pyTelegramBotAPI) library.
 5. Run project.
+6. Send message to bot and show result :). 
 
 # Clone project 
 ```shell
