@@ -15,6 +15,7 @@ $ git clone https://github.com/YasinEnigma/mci-chatbot
 $ cd mci-chatbot/task-004
 $ copy your token in tokin file
 $ python3 echo.py
+$ open using colab and run in colab :)
 ```
 
 
