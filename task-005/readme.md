@@ -8,7 +8,7 @@ Develop an voice telegram bot that recognition and translation of spoken voice i
 4. Install [telebot](https://github.com/eternnoir/pyTelegramBotAPI) library.
 5. Write a function for read the audio file.
 6. Read audio file using 'librosa' and using different framework to convert to text
-7. Using [Vosk](https://alphacephei.com/vosk/), [Nemo](https://github.com/NVIDIA/NeMo).
+7. Using [Vosk](https://alphacephei.com/vosk/), [Nemo](https://github.com/NVIDIA/NeMo) for ASR.
 6. Send message to your bot and show result :). 
 
 # Clone project 
