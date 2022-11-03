@@ -1,5 +1,5 @@
 # Task-005
-Develop an voice telegram bot that recognition and translation of spoken voice into text.
+Develop an voice telegram bot that recognition and transcription of spoken voice into text.
 
 ## Working steps:
 1. Create an new bot using @botfather telegram bot using /newbot command.
