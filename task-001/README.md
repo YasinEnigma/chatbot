@@ -19,3 +19,5 @@ $ python3 microphone.py
 
 You can see that the model work is fines!
 
+# TODO
+- [ ] Develop vosk model for other languages.
