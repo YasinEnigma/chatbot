@@ -1,27 +1,38 @@
-# Task-005
-Develop an voice telegram bot that recognition and transcription of spoken voice into text.
+# Task-006 Part 01
+Launch Rasa initial demo (English)
 
 ## Working steps:
-1. Create an new bot using @botfather telegram bot using /newbot command.
-2. Select and name and id for your bot.
-3. Save your token in token file.
-4. Install [telebot](https://github.com/eternnoir/pyTelegramBotAPI) library.
-5. Write a function for read the audio file.
-6. Read audio file using 'librosa' and using different framework to convert to text
-7. Using [Vosk](https://alphacephei.com/vosk/), [Nemo](https://github.com/NVIDIA/NeMo) for ASR.
-6. Send message to your bot and show result :). 
-
-# Clone project 
+1. Setup Rasa Enivironment
 ```shell
-$ git clone https://github.com/YasinEnigma/mci-chatbot
-$ cd mci-chatbot/task-005
-$ open using jupyter notebook or colab
-$ using your specific language model and download vosk model from [this](https://alphacephei.com/vosk/models)
-$ copy your token id in API_TOKEN variable
-$ Run cells :)
+$ python3 --version
+$ pip3 --version
+$ sudo apt update
+$ sudo apt install python3-dev python3-pip
+$ python3 -m venv ./venv
+$ source ./venv/bin/activate
+$ pip3 install -U pip
+$ pip3 install rasa
 ```
+2. Create new project with rasa
+```shell
+$ rasa init
+```
+3. Train project according to your training data in /data directory
+```shell
+$ rasa train
+```
+4. Run project and connect to your model using API, etc
+```shell
+$ rasa run
+```
+5. Working with you demo using shell
+```shell
+$ rasa shell
+```
+6. Enjoy your first project :)
 
 
 # TODO
-- [ ] Create a bot for reading sound and reply appropriate response to message in text format.
-- [ ] Create a bot for reading sound and reply appropriate response to message in speech format.
+- [ ] Create a chatbot for resturant reserving.
+- [ ] Create a chatbot for ticket booking.
+- [ ] Create a multilingual chatbot.
