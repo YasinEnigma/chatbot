@@ -1,0 +1,27 @@
+version: "2.0"
+stories:
+- story: complete path (C:\Users\ANINDY~1\AppData\Local\Temp\tmpnzbuf0pb\fdc18b01ab394d84ac83a50990e79e0b_stories.md)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: restaurant_search
+  - action: utter_ask_location
+  - intent: restaurant_search
+    entities:
+    - location: delhi
+  - slot_was_set:
+    - location: delhi
+  - slot_was_set:
+    - location: delhi
+  - action: utter_ask_cuisine
+  - intent: restaurant_search
+    entities:
+    - cuisine: chinese
+  - slot_was_set:
+    - cuisine: chinese
+  - slot_was_set:
+    - cuisine: chinese
+  - action: action_search_restaurants
+  - slot_was_set:
+    - location: delhi
+  - action: utter_goodbye  # predicted: action_listen

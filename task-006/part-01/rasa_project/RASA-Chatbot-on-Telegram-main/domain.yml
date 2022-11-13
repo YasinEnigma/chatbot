@@ -1,0 +1,114 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- price
+- restaurant_search
+- cuisine
+- location
+- greet
+- gratitude
+- deny
+- goodbye
+- send_email
+- affirm
+entities:
+- cuisine
+- email
+- location
+- price
+slots:
+  cuisine:
+    type: text
+    influence_conversation: true
+  email:
+    type: text
+    initial_value: unknown
+    influence_conversation: true
+  emailmsg:
+    type: list
+    initial_value: unknown
+    influence_conversation: true
+  location:
+    type: text
+    influence_conversation: true
+  price:
+    type: text
+    influence_conversation: true
+responses:
+  utter_ask_cuisine:
+  - buttons:
+    - payload: chinese
+      title: Chinese
+    - payload: mexican
+      title: Mexican
+    - payload: italian
+      title: Italian
+    - payload: american
+      title: American
+    - payload: south indian
+      title: South Indian
+    - payload: north indian
+      title: North Indian
+    text: What kind of cuisine would you like?
+  utter_ask_price_range:
+  - buttons:
+    - payload: '1'
+      title: Less than Rs. 300
+    - payload: '2'
+      title: Rs. 300 to 700
+    - payload: '3'
+      title: More than Rs. 700
+    text: What's the average budget for two people?
+  utter_ask_location:
+  - text: In what location?
+  - text: May I know the location please?
+  - text: Restaurants of which locations are you interested in?
+  utter_default:
+  - text: I cannot understand
+  - text: I am not able understand
+  utter_goodbye:
+  - text: Goodbye
+  - text: Bye-bye
+  - text: You can reach us anytime you feel hungry. Adios!
+  - text: Happy to help anytime, seeing you
+  - text: Hope to see you soon, have a nice day
+  utter_greet:
+  - text: Hey there! How may I help you?
+  - text: Hi, How can I help you?
+  - text: Hey, How is it going? How May I help you today?
+  - text: Hello and welcome to the Foodie App, the one stop destination for all hunger needs. How may be of your service?
+  - text: Feeling hungry? Foodie is here to help. How may I help you?
+  utter_ask_email:
+  - text: Shall I send you the top 10 results via email?
+  - text: Would you like me to send the top 10 results via email?
+  - text: Would you like to have the top 10 results emailed to you?
+  - text: Do you want me to send the top 10 results by email?
+  utter_request_emailid:
+  - text: Could you please share your email address?
+  - text: What is your email address?
+  - text: That's great. Please provide your email address
+  - text: Very well, please enter your email address
+  utter_no_email:
+  - text: That's alright
+  - text: As you wish, no problem
+  utter_ask_to_continue:
+  - text: Type ok to see the search results
+actions:
+- action_check_city
+- action_check_cuisine
+- action_check_price
+- action_search_restaurants
+- action_select_price
+- action_send_email
+- utter_ask_cuisine
+- utter_ask_email
+- utter_ask_location
+- utter_ask_price_range
+- utter_ask_to_continue
+- utter_default
+- utter_goodbye
+- utter_greet
+- utter_no_email
+- utter_request_emailid
+version: '2.0'

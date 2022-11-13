@@ -1,0 +1,51 @@
+{
+  "utter_ask_location": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4
+  },
+  "utter_ask_cuisine": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5
+  },
+  "action_search_restaurants": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7
+  },
+  "action_listen": {
+    "precision": 0.9655172413793104,
+    "recall": 1.0,
+    "f1-score": 0.9824561403508771,
+    "support": 28
+  },
+  "utter_greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7
+  },
+  "utter_goodbye": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 5
+  },
+  "accuracy": 0.9821428571428571,
+  "macro avg": {
+    "precision": 0.9942528735632185,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.9785575048732943,
+    "support": 56
+  },
+  "weighted avg": {
+    "precision": 0.9827586206896551,
+    "recall": 0.9821428571428571,
+    "f1-score": 0.9813074352548037,
+    "support": 56
+  }
+}

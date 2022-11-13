@@ -1,0 +1,34 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "سلام چطوری؟"
+
+  utter_cheer_up:
+  - text: "در اینجا چیزی برای شاد کردن شما وجود دارد:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "آیا این به شما کمک کرد؟"
+
+  utter_happy:
+  - text: "عالی، ادامه بده!"
+
+  utter_goodbye:
+  - text: "خداحافظ"
+
+  utter_iamabot:
+  - text: "من یک ربات هستم که توسط رسا طراحی شده‌ام."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
