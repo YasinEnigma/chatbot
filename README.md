@@ -7,3 +7,4 @@ set of implementations of mci-chatbot project tasks. you can access more details
 * [task-004: Develop an echo telegram bot](https://github.com/YasinEnigma/mci-chatbot/tree/main/task-004)
 * [task-005: Develop an voice telegram bot that recognition and transcription of spoken voice into text](https://github.com/YasinEnigma/mci-chatbot/tree/main/task-005)
 * [task-006: Develop a chatbot using Rasa toolkit](https://github.com/YasinEnigma/mci-chatbot/tree/main/task-006)
+* [task-007: Develop a Text To Speech (TTS) system]()
