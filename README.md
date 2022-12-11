@@ -1,4 +1,8 @@
-# MCI-Chatbot
+<h1 align="center">MCI-Chatbot</h1>
+<p align="center" width="100%">
+    <img width="40%" src="https://github.com/YasinEnigma/mci-chatbot/blob/main/figs/speech.png">
+</p>
+
 set of implementations of mci-chatbot project tasks. you can access more details in task-x folder and the complete description about the task is available at readme.md file inside the each folder.
 # tasks
 * [task-001: Develop speech recognition for persian language using vosk toolkit](https://github.com/YasinEnigma/mci-chatbot/tree/main/task-001)
