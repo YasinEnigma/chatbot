@@ -1,6 +1,6 @@
 <h1 align="center">MCI-Chatbot</h1>
 <p align="center" width="100%">
-    <img width="40%" src="https://github.com/YasinEnigma/mci-chatbot/blob/main/figs/speech.png">
+    <img width="60%" src="https://github.com/YasinEnigma/mci-chatbot/blob/main/figs/speech2.png">
 </p>
 
 set of implementations of mci-chatbot project tasks. you can access more details in task-x folder and the complete description about the task is available at readme.md file inside the each folder.
