@@ -30,9 +30,3 @@ $ rasa run
 $ rasa shell
 ```
 6. Enjoy your first project :)
-
-
-# TODO
-- [ ] Create a chatbot for resturant reserving.
-- [ ] Create a chatbot for ticket booking.
-- [ ] Create a multilingual chatbot.
